@@ -14,7 +14,7 @@ def calculate_snr(image_path, reference_path):
     print(f"SNR: {snr} dB")
 
 
-image_path = "Images/B.jpg"
-reference_path = "Images/B_Lesscompressed_waifu2xArt_Resized.jpg"
+image_path = "Images/C.jpg"
+reference_path = "Images/C_Lesscompressed_Imgupscaler_Resized.jpg"
 
 calculate_snr(image_path, reference_path)
